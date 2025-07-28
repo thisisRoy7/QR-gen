@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  background: #4B006E;
   text-align: center;
   padding: 40px;
 }
@@ -13,7 +13,13 @@ body {
   margin: auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: #4B006E;
+    
+}
 input {
   width: 80%;
   padding: 10px;
@@ -36,7 +42,14 @@ button {
     display: none;
     /* position: relative; */
     margin-top: 5vh;
-    background-color: rgb(29, 155, 240);
+    background-color: #BC57E8;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#gen-btn {
+    background-color: #BC57E8;
     border-radius: 4px;
     color: white;
     border: none;

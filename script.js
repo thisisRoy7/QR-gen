@@ -18,8 +18,8 @@ function generateQR() {
     text: input,
     width: 200,
     height: 200,
-    colorDark : "#000000",
-    colorLight : "#ffffff",
+    colorDark : "#1F1C51",
+    colorLight : "white",
     correctLevel : QRCode.CorrectLevel.H
   });
 
