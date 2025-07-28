@@ -40,9 +40,10 @@ button {
 }
 
 #qrcode {
-  margin-top: 40px;
-  margin-left: 25%;
-  margin-bottom: 20px;
+  margin: 40px auto 20px auto;
+  display: block;
+  width: fit-content;
+  position: relative;
 }
 #download-btn {
     display: none;
