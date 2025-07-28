@@ -32,3 +32,13 @@ button {
   margin-left: 100px;
   margin-bottom: 20px;
 }
+#download-btn {
+    display: none;
+    /* position: relative; */
+    margin-top: 5vh;
+    background-color: rgb(29, 155, 240);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
